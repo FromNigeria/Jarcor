@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_group"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="Group Chat" />
+
+        <item
+            android:id="@+id/nav_livestream"
+            android:icon="@drawable/ic_bookmark_blac"
+            android:title="Live Donation" />
+        <item
+            android:id="@+id/nav_file_report"
+            android:icon="@drawable/ic_create_black_24dp"
+            android:title="Report an issue" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_notification"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Notification" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="App Info" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>

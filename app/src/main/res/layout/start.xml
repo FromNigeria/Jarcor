@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nysc"
+    android:fitsSystemWindows="true"
+    tools:context="com.jarcor.www.jarcor.StartActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/transparentline"
+        android:alpha="3.2"
+        android:scaleType="fitXY"/>
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginTop="10dp"/>
+
+    <com.jarcor.www.jarcor.customfonts.MyTextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- WELCOME TO JARCO -"
+        android:gravity="center"
+        android:layout_below="@+id/logo"
+        android:textColor="#fff"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Let's get you started !"
+        android:textColor="#FFF"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/welcome"
+        android:gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="50dp"
+        android:gravity="bottom"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+
+        <com.jarcor.www.jarcor.customfonts.MyTextView
+            android:id="@+id/getstarted"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradiant"
+            android:padding="18dp"
+            android:text="iDon't have Account Yet?"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:letterSpacing="0.1"
+
+            />
+
+
+
+        <com.jarcor.www.jarcor.customfonts.MyTextView
+            android:id="@+id/signin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradiantwhite"
+            android:padding="18dp"
+            android:layout_marginTop="20dp"
+            android:text="SIGN IN"
+            android:gravity="center"
+            android:textColor="#0750d5"
+            android:letterSpacing="0.1"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

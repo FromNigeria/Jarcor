@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3B5998</color>
+    <color name="colorPrimaryDark">#3B5998</color>
+    <color name="colorAccent">#FF5521</color>
+    <color name="string">#A8A8A8</color>
+    <color name="string1">#0b0b0b</color>
+    <color name="substring">#a6a6a6</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="colorIndivateTab">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorCardView">#f7f7f7</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_500">#a4a4a4</color>
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_800">#212121</color>
+
+    <color name="from">#000000</color>
+    <color name="subject">#111111</color>
+    <color name="timestamp">#4285f4</color>
+    <color name="message">#7a7a7a</color>
+    <color name="icon_tint_normal">#7a7a7a</color>
+    <color name="icon_tint_selected">#fed776</color>
+    <color name="row_activated">#e0e0e0</color>
+    <color name="bg_action_mode">#757575</color>
+    <color name="bg_circle_default">#666666</color>
+
+    <color name="colorSub">#b0afaf</color>
+    <color name="colorTex">#585858</color>
+    <color name="colordevider">#64dad8d8</color>
+    <color name="colorblue">#4c71f5</color>
+
+    <color name="colorOrange">#F68159</color>
+    <color name="colorLightGray">#a6abae</color>
+    <color name="colorGray">#495C67</color>
+    <color name="colorBackroundWhite">#f0f2ea</color>
+    <color name="colorHead">#363147</color>
+    <color name="colorpara">#8b8a8d</color>
+
+    <color name="colortext">#100b20</color>
+    <color name="colorhint">#a9aaac</color>
+
+    <color name="spots_dialog_color">@android:color/holo_red_light</color>
+</resources>
